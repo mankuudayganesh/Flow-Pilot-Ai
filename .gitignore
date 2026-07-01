@@ -1,0 +1,34 @@
+# Python Caches & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.*
+!.env.example
+
+# Databases (SQLite, etc.)
+*.db
+*.sqlite3
+
+# Node / Frontend (additional safety)
+node_modules/
+dist/
+dist-ssr/
+.eslintcache
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDEs & System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
